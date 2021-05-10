@@ -42,6 +42,7 @@ public class CountingCell {
 			+ countCells(x+1, y) + countCells(x+1, y-1) + countCells(x, y-1)
 			+ countCells(x-1, y-1) + countCells(x-1, y);
 		}
+		
 	}
 	
 }
